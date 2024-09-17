@@ -3808,7 +3808,7 @@ textarea.form-control {
 }
 .about-section .content-column .inner-column {
   position: relative;
-  padding-left: 70px;
+  padding-left: 30px;
 }
 .about-section .content-column .sec-title {
   margin-bottom: 40px;
@@ -3878,13 +3878,14 @@ textarea.form-control {
 }
 .about-section .image-column .inner-column .image-1:before {
   position: absolute;
-  left: -60px;
-  top: 60px;
-  width: 470px;
+  left: -12px;
+  top: -18px;
+  width: 563px;
   height: 435px;
   border: 6px solid var(--border-theme-color2);
   z-index: 2;
   content: "";
+  display: none;
 }
 .about-section .image-column .inner-column .image-2 {
   position: absolute;
@@ -5446,16 +5447,14 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 .feature-block-one .inner-box {
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative; 
   -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 30px 40px;
-  padding-right: 30px;
+  transition: all 300ms ease; 
   border: 1px solid rgba(255, 255, 255, 0.1);
+  height: 100%;
+  cursor: pointer;
 }
 .feature-block-one .inner-box:hover {
   border-color: var(--border-theme-color2);
@@ -5466,7 +5465,7 @@ textarea.form-control {
 }
 .feature-block-one .content {
   position: relative;
-  padding-left: 50px;
+  padding: 15px;
 }
 .feature-block-one .icon {
   position: absolute;
@@ -6860,6 +6859,7 @@ textarea.form-control {
   visibility: visible;
   -webkit-transition-delay: 200ms;
   transition-delay: 200ms;
+  display: none;
 }
 .product-block .inner-box:hover .icon-box {
   bottom: 35px;
@@ -9384,10 +9384,7 @@ table.tbl-shopping-cart > tfoot > tr > th {
   color: #b3c2c1;
 }
 .main-footer .contact-list {
-  position: relative;
-  padding-top: 30px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 25px;
+  position: relative; 
 }
 .main-footer .contact-list li {
   position: relative;
