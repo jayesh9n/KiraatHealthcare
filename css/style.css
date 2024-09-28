@@ -6771,6 +6771,18 @@ textarea.form-control {
   margin-bottom: 40px;
   text-align: center;
 }
+.featured-products .filters .filter-one {
+  position: relative;
+}
+.featured-products .filters li:not(:last-child) .filter-one::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 3px;
+  right: -14px;
+  border-right: 2px solid var(--theme-color2);
+}
 .featured-products .filters .filter-tabs {
   position: relative;
   display: inline-block;
