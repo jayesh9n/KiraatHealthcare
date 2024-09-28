@@ -109,6 +109,12 @@ p,
 .colored {
   color: var(--theme-color1);
 }
+.text-blue {
+  color: var(--theme-color1);
+}
+.text-green {
+  color: var(--theme-color2);
+}
 .auto-container {
   position: static;
   max-width: 1200px;
